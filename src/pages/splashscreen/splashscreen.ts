@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { HomePage } from '../home/home';
+
 
 /*
   Generated class for the Splashscreen page.
@@ -16,7 +18,9 @@ export class SplashscreenPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad SplashscreenPage');
+    setTimeout(() => {
+      this.navCtrl.push(HomePage)
+    }, 2000);
   }
 
 }
