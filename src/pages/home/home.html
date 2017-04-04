@@ -1,23 +1,69 @@
 <ion-header>
-  <ion-navbar [hideBackButton]="true" color="primary">
-    <ion-title>
-      Lottozahlen Deutschland
-    </ion-title>
-  </ion-navbar>
+    <ion-navbar [hideBackButton]="true" color="primary">
+        <ion-title>
+            Lottozahlen Deutschland
+        </ion-title>
+    </ion-navbar>
 </ion-header>
 
 <ion-content padding="5">
-  <ion-grid class="layout">
-    <ion-row style="background:#dddddd;">
-      <ion-col col-4 center style="background:#dfec42; text-align:center">
-        <ion-img src="assets/img/lotto.png" width="100%" height="100%"></ion-img>
-      </ion-col>
-      <ion-col col-8 center style="background:#f53d3d;">
-        <ion-label>This column will take 12 columns</ion-label>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col>This column will take 6 columns</ion-col>
-    </ion-row>
-  </ion-grid>
+    <ion-grid class="layout">
+        <!-- date tirage -->
+        <ion-row>
+            <ion-col col-4 center>
+                <ion-img src="assets/img/lotto.png" class="logo-game"></ion-img>
+            </ion-col>
+            <ion-col col-8 center class="date-tirage">
+                <ion-label>Samstag, 28.01.2017</ion-label>
+            </ion-col>
+        </ion-row>
+
+        <!-- Line -->
+        <ion-row class="line" no-margin>
+            <ion-col></ion-col>
+        </ion-row>
+
+        <!-- Numéros -->
+        <ion-row padding class="draw">
+            <ion-label class="number">-</ion-label>
+            <ion-label class="number">-</ion-label>
+            <ion-label class="number">-</ion-label>
+            <ion-label class="number">-</ion-label>
+            <ion-label class="number">-</ion-label>
+            <ion-label class="number">-</ion-label>
+            <ion-label class="number-gray">-</ion-label>
+        </ion-row>
+
+        <!-- spiel77 -->
+        <ion-row>
+            <ion-col col-4 center>
+                <ion-img src="assets/img/spiel77_blue.png" class="logo-game"></ion-img>
+            </ion-col>
+            <ion-col col-8 center class="spiel77">
+                <ion-label no-padding no-margin>9 2 9 8 3 2 9</ion-label>
+            </ion-col>
+        </ion-row>
+
+        <!-- super6 -->
+        <ion-row>
+            <ion-col col-4 center>
+                <ion-img src="assets/img/super6_purple.png" class="logo-game"></ion-img>
+            </ion-col>
+            <ion-col col-8 center class="super6">
+                <ion-label no-padding no-margin>3 3 8 1 7 9</ion-label>
+            </ion-col>
+        </ion-row>
+
+        <!-- Line -->
+        <ion-row class="line">
+            <ion-col></ion-col>
+        </ion-row>
+
+        <!-- Line -->
+        <ion-row>
+            <ion-col col-4><button ion-button color="light" class="btn-left">Detail</button></ion-col>
+            <ion-col col-8><button ion-button color="light" class="btn-right">Historisch</button></ion-col>
+        </ion-row>
+
+    </ion-grid>
 </ion-content>

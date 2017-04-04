@@ -34,6 +34,82 @@ ion-img {
   vertical-align: middle;
 }
 
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #dddddd;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.date-tirage {
+  color: #aaaaaa;
+  text-align: right;
+}
+
+.draw {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.number {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px !important;
+  overflow:hidden !important;
+  color: #ffffff;
+  background-color: #c80513;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 35px;
+  text-align: center;
+}
+
+.number-gray {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px !important;
+  overflow:hidden !important;
+  color: #565556;
+  background-color: #dddddd;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 35px;
+  text-align: center;
+}
+
+.spiel77 {
+  color: #0096cf;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo-game {
+  width: 100px;
+  height: 25px;
+}
+
+.super6 {
+  color: #c30062;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.btn-left {
+  width: 120px;
+  font-size: 17px !important;
+  font-weight: bold !important;
+  color: #666 !important;
+}
+
+.btn-right {
+  width: 120px;
+  float: right;
+  font-size: 17px !important;
+  font-weight: bold !important;
+  color: #8a6d3b !important;
+}
+
 .layout {
   border-radius: 8px !important;
   overflow:hidden !important;
