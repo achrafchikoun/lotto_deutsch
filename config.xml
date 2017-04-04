@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.ionicframework.lottodeutsch710369" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>lotto_deutsch</name>
+  <name>Lotto Deutschland</name>
   <description>An awesome Ionic/Cordova app.</description>
   <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
   <content src="index.html"/>
@@ -21,12 +21,15 @@
   </platform>
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
-  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="DisallowOverscroll" value="false"/>
   <preference name="android-minSdkVersion" value="16"/>
   <preference name="BackupWebStorage" value="none"/>
-  <preference name="SplashMaintainAspectRatio" value="true"/>
-  <preference name="FadeSplashScreenDuration" value="300"/>
+  <preference name="SplashMaintainAspectRatio" value="false"/>
+  <preference name="ShowSplashScreen" value="false" />
+  <preference name="SplashScreen" value="none"/>
+  <preference name="AutoHideSplashScreen" value="false"/>
   <preference name="SplashShowOnlyFirstTime" value="false"/>
+  <preference name="FadeSplashScreen" value="false"/>
   <preference name="loadUrlTimeoutValue" value="700000" />
   <feature name="StatusBar">
     <param name="ios-package" onload="true" value="CDVStatusBar"/>

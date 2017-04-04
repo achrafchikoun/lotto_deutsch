@@ -20,7 +20,7 @@ export class SplashscreenPage {
   ionViewDidLoad() {
     setTimeout(() => {
       this.navCtrl.push(HomePage)
-    }, 2000);
+    }, 3000);
   }
 
 }
